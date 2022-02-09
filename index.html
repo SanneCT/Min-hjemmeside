@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Min nettside</title>
+    <title>Min hjemmeside</title>
 
     <!-- google fonts --> 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
@@ -20,7 +20,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
     <!-- CSS stylesheet -->
-    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="./CSS/styles.css">
 </head>
 
 <body>
@@ -79,11 +79,12 @@
         <div class="row">
     
             <div class="col-lg-6">
-                <h1 class="big-heading">Sanne Cecilie Trumpi</h1>
+                <h1 class="big-heading">Sanne Cecilie Trumpi</h1> 
+                <p>Jeg er en 16 år gammel jente. Jeg er født og oppvokst på Rykkinn.</p>
             </div>
         
             <div class="col-lg-6 position-relative">
-                <img class="profile-image" src="../IMG/profilbilde-modified.png" alt="profilbilde">
+                <img class="profile-image" src="./IMG/profilbilde-modified.png" alt="profilbilde">
             </div>
         </div>
     
@@ -121,38 +122,39 @@
         </section>
 
 
-        <!-- Galleri og oppgaver -->
+        <!-- spill section -->
 
-        <section id="Galleri">
-
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-
-                  <div class="carousel-item active">
-                    <h2 class="galleri-tekst">Fotogalleri</h2>
-                    <h4>Inne på fotogalleri finner du bildene vi jobber med i medie</h4>
-                    <a href="../HTML/galleri.html"><i class="fas fa-camera-retro fa-5x galleri-icon"></i></a>
-                  </div>
-
-                  <div class="carousel-item">
-                    <h2 class="galleri-tekst">Oppgaver og prosjekter</h2>
-                    <h4>Inne på oppgaver og prosjekter finner du blant annet oppgaver innen medie</h4>
-                    <a href="../HTML/prosjekter.html"><i class="fas fa-server fa-5x galleri-icon"></i></a>
-                  </div>
-                </div>
-
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
+        <section id="Spill">
+    
+          <div class="container-fluid">
+      
+            <div class="row">
+    
+              <div class="spill-box col-lg-4">
+                <i class="fas fa-dice fa-4x icon"></i>
+                <h3 class="spill-title"><a href="https://sannect.github.io/DiceGame/">Dice game</h3></a>
+                <p>2022<br>Et terning spill for to spillere</p>
               </div>
 
+              <div class="spill-box col-lg-4">
+                <i class="fas fa-drum fa-4x icon"></i>
+                <h3 class="spill-title"><a href="">Drum kit</h3></a>
+                <p>2022<br>x</p>
+              </div>
+
+              <div class="spill-box col-lg-4">
+                <i class="fas fa-lightbulb fa-4x icon "></i>
+                <h3 class="spill-title"><a href="">Simon game</h3></a>
+                <p>2022<br>x</p>
+              </div>
+    
+    
+          </div>
     
         </section>
+
+
+        
 
 
         <!-- Arbeidserfaring section -->
@@ -162,16 +164,23 @@
       
             <div class="row">
     
-              <div class="arbeidserfaring-box col-lg-6">
+              <div class="arbeidserfaring-box col-lg-4">
                 <i class="fas fa-coffee fa-4x"></i>
                 <h3 class="arbeidserfaring-title"><a href="https://samson.no/filialen/akershus/w-b-samson-rykkinn">W.B. Samson</h3></a>
                 <p>Uke 7 2020 <br>Jeg jobbet på Samson i en uke under arbeidsuka.</p>
               </div>
     
-              <div class="arbeidserfaring-box col-lg-6">
+              <div class="arbeidserfaring-box col-lg-4">
                 <i class="fas fa-child fa-4x"></i>
                 <h3 class="arbeidserfaring-title"><a href="https://www.baerum.kommune.no/tjenester/barnehage/alle-barnehager/berger-barnehage/"> Berger Barnehage</h3></a>
                 <p>Skoleåret 2019/2020 <br>Jeg jobbet på en bestemt avdeling etter skolen hver onsdag i et par timer. Jeg jobbet der som en del av valgfaget mitt. (innsats for andre)</p>
+              </div>
+
+
+              <div class="arbeidserfaring-box col-lg-4">
+                <i class="fas fa-tv fa-4x"></i>
+                <h3 class="arbeidserfaring-title"><a href="https://www.nrk.no/tvaksjonen/">Bøssebærer</h3></a>
+                <p>2018, 2019 og 2020<br>Jeg var bøssebærer for TV-aksjonen NRK.</p>
               </div>
     
     
@@ -181,6 +190,73 @@
 
         </section>
 
+
+
+        <!-- Galleri og oppgaver -->
+
+        <section id="Galleri">
+
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                  <h2 class="galleri-tekst"><a href="./HTML/galleri.html">Fotogalleri</a></h2>
+                  <h4>Inne på fotogalleri finner du bildene vi jobber med i medie</h4>
+                  <a href="./HTML/galleri.html"><i class="fas fa-camera-retro fa-5x galleri-icon"></i></a>
+                </div>
+
+                <div class="carousel-item">
+                  <h2 class="galleri-tekst"><a href="./HTML/galleri.html">Oppgaver og prosjekter</a></h2>
+                  <h4>Inne på oppgaver og prosjekter finner du blant annet oppgaver innen medie</h4>
+                  <a href="./HTML/prosjekter.html"><i class="fas fa-server fa-5x galleri-icon"></i></a>
+                </div>
+              </div>
+
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+  
+      </section>
+
+
+
+
+        <!-- Hobby section -->
+        <section id="hobby">
+
+          <div class="container-fluid">
+      
+            <div class="row">
+    
+              <div class="hobby-box col-lg-4">
+                <i class="fas fa-camera-retro fa-4x"></i>
+                <h3 class="hobby-title">Fotografering</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+              </div>
+    
+              <div class="hobby-box col-lg-4">
+                <i class="fas fa-book-open fa-4x"></i>
+                <h3 class="hobby-title">Lesing</h3>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
+              </div>
+    
+              <div class="hobby-box col-lg-4">
+                <i class="fas fa-utensils fa-4x"></i>
+                <h3 class="hobby-title">Matlaging</h3>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+              </div>
+    
+          </div>
+
+
+        </section>
 
 
         <!-- Språk section -->
@@ -227,38 +303,6 @@
               </div>
             </div>
           </div>
-
-        </section>
-
-
-
-        <!-- Hobby section -->
-        <section id="hobby">
-
-          <div class="container-fluid">
-      
-            <div class="row">
-    
-              <div class="hobby-box col-lg-4">
-                <i class="fas fa-camera-retro fa-5x"></i>
-                <h3 class="hobby-title">Fotografering</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-              </div>
-    
-              <div class="hobby-box col-lg-4">
-                <i class="fas fa-book-open fa-4x"></i>
-                <h3 class="hobby-title">Lesing</h3>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
-              </div>
-    
-              <div class="hobby-box col-lg-4">
-                <i class="fas fa-utensils fa-4x"></i>
-                <h3 class="hobby-title">Matlaging</h3>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
-              </div>
-    
-          </div>
-
 
         </section>
 
