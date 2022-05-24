@@ -1,5 +1,21 @@
 /* The actual timeline (the vertical ruler) */
 
+.mb {
+    margin-bottom: 0%;
+}
+
+.spill-overskrift {
+    padding-bottom: 0%;
+}
+
+.spill-icon {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.spill-tekst {
+    padding-bottom: 0%;
+}
 .link:hover {
 	color: #26c6da;
 }
