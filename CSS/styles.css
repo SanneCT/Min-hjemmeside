@@ -39,8 +39,10 @@ h1, h2, h3, h4, h5, h6 {
 .nav-link {
     font-size: 1.2rem;
     font-family: "Montserrat" "sans-serif";
-    color: #fff;
 }
+
+
+
 
 
 
@@ -58,6 +60,10 @@ p {
     padding-top: 3%;
 }
 
+.meg {
+    color: #000;
+    line-height: 2;
+}
 
 /* profile image */
 
