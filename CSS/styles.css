@@ -1,24 +1,65 @@
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Montserrat"
+/* GENERELLT */
+
+.liten-tekst {
+    font-family: "Ubuntu";
+    font-size: 125%;
+    padding: 3%;
 }
 
+.avsnitt-tekst {
+    font-family: "Ubuntu";
+    font-size: 125%;
+    padding: 3%;
+    line-height: 200%;
+}
 
-/* Headings */
-.big-heading {
-    font-family: 'Montserrat', "sans-serif";
-    font-size: 4rem; 
+.andre-overskrifter {
+    font-family: "Ubuntu";
+    font-size: 225%;
+    padding: 3%;
+}
+
+.overskrift {
+    font-size: 450%; 
     line-height: 1.5;
-    color: #fff;
+}
+
+
+.icon {
+    color: #000;
+    margin-bottom: 1rem;
+}
+
+
+:any-link {
+    color: #000;
+    
+}
+a:hover {
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* SECTION FARGE */
+.meg {
+    background-color: red;
+}
+
+.prosjekter { 
+    background-color: blue;
+}
+
+#utdanning {
+    background-color: green;
 }
 
 
 
-.section-heading {
-    font-size: 3rem;
-    line-height: 1.5;
-}
-
-/* navigation bar */
+/* NAV BAR */
 
 .navbar {
     padding: 0 0 4.5rem;
@@ -42,316 +83,39 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-
-
-
-
-
-
-/* Title section */
-
+/* OVERSKRIFT OG PROFILBILDE*/
 #title .container-fluid {
     padding: 3% 15%;
     text-align: left;
     background-color: #D5BBB1;
 }
 
-p {
-    padding-top: 3%;
+.profilbilde {
+    padding-left: 15%;
 }
 
-.meg {
-    color: #000;
-    line-height: 2;
-}
-
-/* profile image */
-
-.profile-image {
-    width: 85%;
-    right: 15%;
-    padding-left: 7%;
-}
-
-
-
-
-/* utdanning section */
-
-#utdanning {
-    font-family: "Montserrat-bold";
-    background-color: #F8F7ED;
-    position: relative;
-    text-align: center;
-}
-
-.utdanning-title {
-    font-size: 1.5rem;
-    padding-top: 10%;
-}
-
-.icon {
-    color: #000;
-    margin-bottom: 1rem;
-}
-
-
-p {
-    color: #373E43;
-}
-
-
-
-.utdanning-box {
+/* OM MEG */
+.profilbilde2 {
+    width: 518px;
+    height: 455px;
     padding: 5%;
-    margin-top: 4%;
-    margin-bottom: 4%;
+    padding-left: 10%;
 }
 
-:any-link {
-    color: #000;
-    
-}
-a:hover {
-    color: #000;
+/* PROSJEKTER SPILL OG BILDER */
+
+.prosjekt-rad {
+    padding: 3%;
 }
 
-a {
-    text-decoration: none;
-}
+/* UTDANNING */
 
-
-/* spill section */
-
-#Spill {
-    font-family: "Montserrat-bold";
-    background-color: #D5BBB1;
-    position: relative;
+.utdanning-rad {
     text-align: center;
-}
-
-.Spill-title {
-    font-size: 1.5rem;
-    padding-top: 10%;
-}
-
-.icon {
-    color: #000;
-    margin-bottom: 1rem;
+    padding: 3%;
 }
 
 
-p {
-    color: #373E43;
-}
-
-
-
-.spill-box {
-    padding: 5%;
-    margin-top: 4%;
-    margin-bottom: 4%;
-}
-
-:any-link {
-    color: #000;
-    
-}
-a:hover {
-    color: #000;
-}
-
-a {
-    text-decoration: none;
-}
-
-
-/* galleri og prosjekter section */
-
-#Galleri {
-    background-color: #D5BBB1;
-    text-align: center;
-    padding: 7% 3%;
-}
-
-.galleri-icon {
-    color: black;
-    padding: 5%;
-}
-
-
-.gallery {
-    display: grid;
-    grid-gap: 10px;
-  }
-  
-  .gallery img {
-    object-fit: cover;
-    width: 100%;
-    border-radius: 5px;
-  }
-  
-  @media screen and (min-width: 768px) {
-    .gallery {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-  
-  @media screen and (min-width: 1024px) {
-    .gallery {
-      grid-template-columns: repeat(3, 1fr);
-    }
-    .gallery img:nth-of-type(3) {
-      grid-column: 2 / 4;
-      grid-row: 1 / 3;
-    }
-  }
-
-
-/* Arbeidserfaring section */
-
-#Arbeidserfaring {
-    font-family: "Montserrat-bold";
-    background-color: #F8F7ED;
-    position: relative;
-    text-align: center;
-}
-
-.arbeidserfaring-title {
-    font-size: 1.5rem;
-    padding-top: 10%;
-}
-
-.icon {
-    color: #000;
-    margin-bottom: 1rem;
-}
-
-
-p {
-    color: #373E43;
-}
-
-
-
-.arbeidserfaring-box {
-    padding: 5%;
-    margin-top: 3%;
-    margin-bottom: 3%;
-}
-
-
-
-/* språk section */
-
-.accordion-item {
-    font-family: "Montserrat" "sans-serif";
-}
-
-.accordion-button {
-    color: black;
-}
-
-.button-text {
-    color: #000;
-}
-
-.accordion-button:not(.collapsed) {
-    color: #000;
-    background-color: #F8F7ED;
-    box-shadow: none;
-    border: none;
-}
-
-.accordion-button::after {
-    color: black;
-}
-
-#språk {
-    padding: 7%;
-    background-color: #D5BBB1;
-}
-
-.språk-tabell {
-    background-color: #F8F7ED;
-}
-
-.accordion-button:focus {
-    box-shadow: none;
-}
-
-/* .accordion-button:not(.collapsed)::after {
-    background-image: url"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e";
-    transform: rotate(-180);
-} */
-
-
-
-/* hobby section */
-
-#hobby {
-    font-family: "Montserrat-bold";
-    /* background-color: #9cc4b2; */
-    background-color: #F8F7ED;
-    position: relative;
-    text-align: center;
-}
-
-.hobby-title {
-    font-size: 1.5rem;
-    padding-top: 10%;
-}
-
-.icon {
-    color: #000;
-    margin-bottom: 1rem;
-}
-
-
-p {
-    color: #373E43;
-}
-
-.hobby-box {
-    padding: 5%;
-    margin-top: 3%;
-    margin-bottom: 3%;
-}
-
-/* footer section */
-#footer {
-    background-color: #F8F7ED;
-    text-align: center;
-    margin-bottom: 0%;
-    padding-bottom: 1%;
-    padding-top: 1%;
-}
-
-
-.social-icon {
-    margin: 10px 5px;
-    color: #000;
-}
-:any-link {
-    color: #000;
-}
-
-/* mørk footer */
-.mørk-footer {
-    background-color: #F8F7ED;
-    text-align: center;
-    margin-bottom: 0%;
-    padding-bottom: 1%;
-    padding-top: 2%;
-}
-
-:any-link {
-    color: #000;
-}
-
-.icon-foot {
-    padding: 1%;
-}
 
 
 
