@@ -345,13 +345,12 @@ p {
     padding-top: 2%;
 }
 
-
-.social-icon {
-    margin: 10px 5px;
-    color: #000;
-}
 :any-link {
     color: #000;
+}
+
+.icon-foot {
+    padding: 1%;
 }
 
 
