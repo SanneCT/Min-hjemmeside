@@ -23,6 +23,8 @@
     font-family: "Ubuntu";
     font-size: 450%; 
     line-height: 1.5;
+    font-weight: bold;
+    color: #fff;
 }
 
 
@@ -51,7 +53,7 @@ a {
 }
 
 .farge2 {
-    background-color: #9CBDD3;
+    background-color: #F8F7ED;
 }
 
 .card-body {
@@ -60,14 +62,14 @@ a {
 
 .btn-cards {
     color: #fff;
-    background-color: #9CBDD3 ;
-    border-color: #72A1C0;
+    background-color: #D5BBB1 ;
+    border-color: #BF9788;
 }
 
 .btn-cards:hover {
     color: #fff;
-    background-color: #72A1C0 ;
-    border-color: #568EB3;
+    background-color: #BF9788 ;
+    border-color: #A97360;
 }
 
 
