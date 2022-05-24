@@ -45,30 +45,31 @@ a {
 }
 
 
-/* SECTION FARGE */
-.meg {
-    background-color: red;
+/* FARGE */
+.farge1 {
+    background-color: #D5BBB1;
 }
 
-.prosjekter { 
-    background-color: blue;
+.farge2 {
+    background-color: #9CBDD3;
 }
 
-#utdanning {
-    background-color: green;
+.card-body {
+    background-color: #F8F7ED;
 }
 
-#arbeidserfaring {
-    background-color: yellow;
+.btn-cards {
+    color: #fff;
+    background-color: #9CBDD3 ;
+    border-color: #72A1C0;
 }
 
-#språk {
-    background-color: purple;
+.btn-cards:hover {
+    color: #fff;
+    background-color: #72A1C0 ;
+    border-color: #568EB3;
 }
 
-#hobby {
-    background-color: orange;
-}
 
 
 
@@ -76,7 +77,6 @@ a {
 
 .navbar {
     padding: 0 0 4.5rem;
-    background-color: #D5BBB1;
 }
 
 .navbar-brand {
@@ -101,7 +101,6 @@ a {
 #title .container-fluid {
     padding: 3% 15%;
     text-align: left;
-    background-color: #D5BBB1;
 }
 
 .profilbilde {
@@ -115,6 +114,10 @@ a {
     height: 455px;
     padding: 5%;
     padding-left: 10%;
+}
+
+.meg-box {
+    padding-left: 7%;
 }
 
 
@@ -149,6 +152,16 @@ a {
 .carousel-item {
     padding: 3% 15%;
 }
+
+.carousel-control-next-icon {
+    color: #fff;
+}
+
+.carousel-control-prev-icon {
+    color: #fff;
+}
+
+
 
 /* HOBBY */
 .hobby-rad {
