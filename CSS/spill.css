@@ -4,6 +4,10 @@
     margin-bottom: 0%;
 }
 
+.card-body {
+    background-color: #f5f3f4;
+}
+
 .spill-overskrift {
     padding-bottom: 0%;
 }
@@ -16,6 +20,7 @@
 .spill-tekst {
     padding-bottom: 0%;
 }
+
 .link:hover {
 	color: #A97360;
 }
