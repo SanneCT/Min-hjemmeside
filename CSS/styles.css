@@ -20,6 +20,12 @@
     padding: 3%;
     padding-top: 7%;
 }
+.overskrift-hvit {
+    color: #fff;
+    font-family: "Ubuntu";
+    font-size: 225%;
+    padding: 3%;
+}
 
 .overskrift {
     font-family: "Ubuntu";
@@ -110,6 +116,8 @@ a {
 
 .profilbilde {
     padding-left: 15%;
+    height: 95%;
+    width: 105%;
 }
 
 
@@ -118,12 +126,14 @@ a {
 .profilbilde2 {
     width: 518px;
     height: 455px;
-    padding: 5%;
-    padding-left: 10%;
+    /* padding: 5%; */
+    margin-left: 10%;
+    margin-top: 10%;
 }
 
 .meg-box {
     padding-left: 7%;
+    line-height: 2.5;
 }
 
 
@@ -217,11 +227,13 @@ a {
 .icon-foot {
     padding: 1%;
     padding-top: 3%;
+    color: #fff;
 } 
 
 .foot {
     margin-bottom: 0%;
     padding-top: 3%;
+    color: #fff;
 }
 
 
