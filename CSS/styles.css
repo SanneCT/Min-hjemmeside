@@ -158,6 +158,8 @@ a {
 
 .collection {
     list-style: none;
+    margin-bottom: 0px;
+    padding-bottom: 3%;
 }
 
 .icon-arbeid {
@@ -169,6 +171,7 @@ a {
     padding-bottom: 0%;
     margin-bottom: 0%;
 }
+
 
 
 
