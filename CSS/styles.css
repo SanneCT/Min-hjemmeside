@@ -156,6 +156,20 @@ a {
     padding: 3%;
 }
 
+.collection {
+    list-style: none;
+}
+
+.icon-arbeid {
+    padding-left: 3%;
+    padding-top: 0%;
+}
+
+.arbeid {
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
 
 
 /* SPRÅK */
