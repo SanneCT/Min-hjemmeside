@@ -1,5 +1,9 @@
 /* GENERELLT */
 
+.h1 {
+    margin-bottom: 0px;
+}
+
 .liten-tekst {
     font-family: "Ubuntu";
     font-size: 125%;
@@ -29,7 +33,7 @@
 
 .overskrift {
     font-family: "Ubuntu";
-    font-size: 550%; 
+    font-size: 500%; 
     line-height: 1.5;
     font-weight: bold;
     color: #fff;
