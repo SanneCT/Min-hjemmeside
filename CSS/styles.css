@@ -18,6 +18,7 @@
     font-family: "Ubuntu";
     font-size: 225%;
     padding: 3%;
+    padding-top: 7%;
 }
 
 .overskrift {
@@ -183,12 +184,16 @@ a {
 }
 
 .carousel-item {
-    padding: 7% 15%;
+    padding: 5% 15%;
 }
 
 .btn-carousel {
     background-color: #A97360;
     width: 20%;
+}
+
+.språk-tekst {
+    padding-top: 2%;
 }
 
 
