@@ -274,6 +274,10 @@ a {
     vertical-align: middle;
     width: 100%;
   }
+
+  .row2 {
+      padding: 3%;
+  }
   
   /* Responsive layout - makes a two column-layout instead of four columns */
   @media screen and (max-width: 800px) {
