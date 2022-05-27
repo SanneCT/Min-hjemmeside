@@ -7,21 +7,21 @@
 .liten-tekst {
     font-family: "Ubuntu";
     font-size: 125%;
-    padding: 3%;
+    padding:3% ;
 }
 
 
 .avsnitt-tekst {
     font-family: "Ubuntu";
     font-size: 125%;
-    padding: 3%;
+    padding: 0% 3%;
     line-height: 200%;
 }
 
 .andre-overskrifter {
     font-family: "Ubuntu";
     font-size: 225%;
-    padding: 3%;
+    /* padding: 3%; */
     padding-top: 7%;
 }
 .overskrift-hvit {
@@ -259,7 +259,7 @@ a {
   .row-album {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 4px;
+    padding: 2px 4px;
   }
   
   /* Create four equal columns that sits next to each other */
