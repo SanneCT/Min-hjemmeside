@@ -153,6 +153,16 @@ a {
     padding: 5%;
 }
 
+.card-pro {
+    margin: 5%;
+}
+
+
+.html-overskrift {
+    text-align: center;
+}
+
+
 
 
 /* UTDANNING */
@@ -350,6 +360,7 @@ a {
 
   .hjem-knapp {
       font-size: 200%;
+      margin-left: 300%;
   }
 
 
