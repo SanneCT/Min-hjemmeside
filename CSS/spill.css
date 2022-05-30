@@ -10,6 +10,7 @@
 
 .spill-overskrift {
     padding-bottom: 0%;
+	padding-left: 2%;
 }
 
 .spill-icon {
@@ -19,6 +20,7 @@
 
 .spill-tekst {
     padding-bottom: 0%;
+	padding-left: 2%;
 }
 
 .link:hover {
